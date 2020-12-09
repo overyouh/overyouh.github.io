@@ -34,7 +34,7 @@ $(function () {
         if (useragent.match(/MicroMessenger/i) != 'MicroMessenger') {
             window.location.href = "wxError.html";//若不是微信浏览器，跳转到温馨error页面
         }
-        for (i = 0; i < 2; i++) {
+        for (i = 0; i < 20; i++) {
             query();
         }
         // addExpand();
