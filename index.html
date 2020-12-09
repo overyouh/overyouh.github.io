@@ -83,7 +83,7 @@
                 $("#content").append("<p id=" + data.data.title + " class=\"ppp\">" + data.data.title +
                     "<br>活动规则：" + data.data
                     .rule +
-                    "<br>参与方式：" + data.data.manner + "<br>其他说明" + data.data.explanation + "</p>")
+                    "<br>参与方式：" + data.data.manner + "<br>其他说明:" + data.data.explanation + "</p>")
                 $.each(data.data.Picture, function (i, n) {
                     $("#" + data.data.title).after("<img src=" + n + "></img>")
                 })
