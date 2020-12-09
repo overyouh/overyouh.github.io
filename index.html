@@ -77,9 +77,6 @@
             url: "https://www.xiaojieapi.cn/API/Gourdwelfare.php",
             dataType: "json",
             success: function (data) {
-                if(data.data.explanation=="已被过滤！"){
-                data.data.explanation="无"
-                }
                 $("#content").append("<p id=" + data.data.title + " class=\"ppp\">" + data.data.title +
                     "<br>活动规则：" + data.data
                     .rule +
