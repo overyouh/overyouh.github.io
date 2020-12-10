@@ -1,0 +1,32 @@
+a:hover {
+    text-decoration: none;
+    color: rgba(182, 38, 127, 0.5);
+    vertical-align: middle;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(102, 102, 111, 0.5);
+    vertical-align: middle;
+    margin: 0;
+}
+
+.btn {
+    width: 100%;
+    box-shadow: 0 1px 2px #8b8b8b inset, 0 -1px 0 #3d3d3d inset, 0 -2px 3px #8b8b8b inset;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+a:visited {
+    text-decoration: none;
+    color: rgba(182, 38, 127, 0.5);
+    vertical-align: middle;
+    margin: 0;
+}
+
+body {
+    overflow: hidden;
+}
