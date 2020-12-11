@@ -1,0 +1,330 @@
+.hot_posts {
+    background-color: #fff;
+    padding: 20px;
+    position: relative;
+    font-size: 0;
+    box-shadow: 0 0px 20px rgba(160, 160, 160, 0.1);
+    border-radius: 5px;
+}
+
+.hot_posts .suiji {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    padding-right: 10px;
+}
+
+.hot_posts .hots {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    padding-left: 10px;
+}
+
+.hot_posts h3 {
+    border-bottom: 2px #f2f2f2 solid;
+    padding-bottom: 6px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    margin-top: 0;
+    position: relative;
+}
+
+.hot_posts h3:after {
+    content: "";
+    color: #ffffff;
+    position: absolute;
+    height: 2px;
+    width: 30px;
+    background: #45b6f7;
+    left: 0;
+    bottom: -2px;
+    -webkit-transition: all .25s ease-in;
+    -moz-transition: all .25s ease-in;
+    transition: all .25s ease-in;
+}
+
+.hot_posts .suiji:hover h3:after,
+.hot_posts .hots:hover h3:after {
+    width: 100px;
+}
+
+.hot_posts ul {
+    padding: 0
+}
+
+.hot_posts ul li {
+    display: block;
+    padding: 8px 0;
+    -webkit-transition: ease-in-out 0.25s;
+    transition: ease-in-out 0.25s;
+    font-size: 14px;
+}
+
+.hot_posts ul li:hover {
+    font-size: 15px;
+    -webkit-transition: ease-in-out 0.25s;
+    transition: ease-in-out 0.25s;
+}
+
+.hot_posts ul li a {
+    display: block;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    line-height: 22px;
+}
+
+.hot_posts ul li strong {
+    float: right;
+    font-weight: normal;
+    line-height: 22px;
+    padding-left: 15px;
+}
+
+.hot_posts ul li a>img {
+    width: 30px;
+    height: 22px;
+    margin-right: 4px;
+    border-radius: 5px;
+    vertical-align: bottom;
+}
+
+.hot_posts span {
+    width: 22px;
+    height: 22px;
+    background-color: #f2f2f2;
+    display: inline-block;
+    text-align: center;
+    margin-right: 4px;
+    border-radius: 25px;
+    line-height: 22px;
+    color: #666;
+}
+
+.hot_posts ul li:nth-child(1) span {
+    background-color: #ff5a3c;
+    color: #fff;
+}
+
+.hot_posts ul li:nth-child(2) span {
+    background-color: #13b755;
+    color: #fff;
+}
+
+.hot_posts ul li:nth-child(3) span {
+    background-color: #00a9e3;
+    color: #fff;
+}
+
+#wowslider-container1 {
+    zoom: 1;
+    position: relative;
+    width: 100%;
+    float: right;
+    margin: 0 0 10px 0;
+    z-index: 90;
+}
+
+* html #wowslider-container1 {
+    width: 100%
+}
+
+#wowslider-container1 .ws_images ul {
+    position: relative;
+    width: 10000%;
+    height: auto;
+    left: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-spacing: 0;
+    overflow: visible
+}
+
+#wowslider-container1 .ws_images ul li {
+    width: 1%;
+    line-height: 0;
+    float: left;
+    font-size: 0;
+    padding: 0 !important;
+    margin: 0 !important
+}
+
+#wowslider-container1 .ws_images {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden
+}
+
+#wowslider-container1 .ws_images a {
+    width: 100%;
+    display: block;
+    color: transparent
+}
+
+#wowslider-container1 img {
+    max-width: none !important
+}
+
+#wowslider-container1 .ws_images img {
+    width: 100%;
+    border: none 0;
+    max-width: none;
+    padding: 0;
+    margin: 0
+}
+
+#wowslider-container1 a {
+    text-decoration: none;
+    outline: 0;
+    border: 0
+}
+
+#wowslider-container1 a.ws_next,
+#wowslider-container1 a.ws_prev {
+    position: absolute;
+    display: none;
+    top: 50%;
+    margin-top: -3.5em;
+    z-index: 60;
+    height: 7.1em;
+    width: 7.1em;
+    background-image: url(../img/arrows.png);
+    background-size: 200%
+}
+
+#wowslider-container1 a.ws_next {
+    background-position: 100% 0;
+    right: 1em
+}
+
+#wowslider-container1 a.ws_prev {
+    left: 1em;
+    background-position: 0 0
+}
+
+#wowslider-container1 a.ws_next:hover {
+    background-position: 100% 100%
+}
+
+#wowslider-container1 a.ws_prev:hover {
+    background-position: 0 100%
+}
+
+* html #wowslider-container1 a.ws_next,
+* html #wowslider-container1 a.ws_prev {
+    display: block
+}
+
+#wowslider-container1:hover a.ws_next,
+#wowslider-container1:hover a.ws_prev {
+    display: block
+}
+
+#wowslider-container1 .ws_playpause {
+    display: none;
+    width: 7.1em;
+    height: 7.1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -3.5em;
+    margin-top: -3.5em;
+    z-index: 59;
+    background-size: 100%
+}
+
+#wowslider-container1:hover .ws_playpause {
+    display: block
+}
+
+#wowslider-container1 .ws_pause {
+    background-image: url(../img/pause.png)
+}
+
+#wowslider-container1 .ws_play {
+    background-image: url(../img/play.png)
+}
+
+#wowslider-container1 .ws_pause:hover,
+#wowslider-container1 .ws_play:hover {
+    background-position: 100% 100% !important
+}
+
+#wowslider-container1 .ws-title {
+    position: absolute;
+    display: block;
+    bottom: 3.5em;
+    left: 1em;
+    margin-right: 1em;
+    padding: 1em .9em .9em .9em;
+    background-color: rgba(0, 0, 0, .4);
+    color: #e7ffff;
+    z-index: 50;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: .2em;
+    -moz-border-radius: .2em;
+    -webkit-border-radius: .2em
+}
+
+#wowslider-container1 .ws-title div {
+    margin-top: .3em;
+    font-size: 1.6em;
+    line-height: 1.15em;
+    font-weight: 400;
+    text-transform: none;
+    color: #fff
+}
+
+#wowslider-container1 .ws-title span {
+    font-size: 2.4em
+}
+
+#wowslider-container1 .ws_images ul {
+    animation: wsBasic 16s infinite;
+    -moz-animation: wsBasic 16s infinite;
+    -webkit-animation: wsBasic 16s infinite
+}
+
+@keyframes messageFadeInDown {
+    0% {
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+
+    100% {
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+.c-message.messageFadeInDown {
+    -webkit-animation-duration: .6s;
+    animation-duration: .6s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both -webkit-animation-name:messageFadeInDown;
+    animation-name: messageFadeInDown;
+}
+
+.fadeIn #sign {
+    top: 50%;
+    opacity: 1;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.page-template-pagesresetpassword-php section.container {
+    margin: 0
+}
+
+.single section.container {
+    margin: 0
+}
