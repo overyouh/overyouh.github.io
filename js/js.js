@@ -5,10 +5,10 @@ function aler(id,html) {
     });
 }
 $(function () {
-    //  var useragent = navigator.userAgent;
-    //     if (useragent.match(/MicroMessenger/i) != 'MicroMessenger') {
-    //         window.location.href = "/html/wxError.html";//若不是微信浏览器，跳转到温馨error页面
-    //     }
+      var useragent = navigator.userAgent;
+         if (useragent.match(/MicroMessenger/i) != 'MicroMessenger') {
+             window.location.href = "/html/wxError.html";//若不是微信浏览器，跳转到温馨error页面
+         }
 //     document.onmousedown=click
 // function click()
 // {
